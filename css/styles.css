@@ -176,8 +176,8 @@ a {
   align: center;
   display: block;
   margin: 0 auto;
-  padding: 16px 32px;
-  min-width: 169px
+  min-width: 169px;
+  height: 56px;
   border: none;
   border-radius: 4px;
 }
@@ -194,7 +194,7 @@ a {
 }
 
 .benefits-item {
-  width: calc(100% - 72 / 4);
+  width: calc((100% - 72px) / 4);
 }
 .benefits-subtitle {
   font-weight: 500;
@@ -259,7 +259,7 @@ a {
 }
 
 .team-subtitle-text {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 /* ---------------Our Team------------- */
@@ -304,7 +304,7 @@ a {
 }
 
 .wrapper-subtitle-text {
-  padding: 32px 0px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
